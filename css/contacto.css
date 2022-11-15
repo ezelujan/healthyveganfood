@@ -4,6 +4,7 @@
     --naranja: #F58B7B;
     --naranjaForm: #F89C8E58;
     --naranjaHover: #E58273;
+    --naranjaLetraForm: #F89C8E;
     --verde200: #629E96;
     --verde500: #18A583;
     --verdeForm: #25A4833D;
@@ -19,6 +20,12 @@ main {
     justify-content: center;
     align-items: center;
 }
+.contacto > h1 {
+    margin: 3rem 0;
+    font-size: 3.5rem;
+    text-align: center;
+    color: var(--naranja);
+}
 form {
     display: flex;
     width: 100%;
@@ -28,26 +35,35 @@ input {
     width: 100%;
     border: none;
     padding: 2rem;
+    outline: none;
+    font-size: 1.8rem;
     border-radius: 5rem;
     margin-bottom: 1rem;
     background-color: var(--verdeForm);
+}
+input::placeholder {
+    color: var(--verdeLetraForm);
+    font-weight: 600;
 }
 textarea {
     width: 100%;
     border: none;
     padding: 2rem;
+    font-size: 1.8rem;
+    font-family: 'Poppins', sans-serif;
     border-radius: 3rem;
     margin-bottom: 1rem;
     background-color: var(--naranjaForm);
+}
+textarea::placeholder {
+    color: var(--naranjaLetraForm);
+    font-weight: 600;
 }
 .campos {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
-.campos input:first-child {
+input[type="tel"] {
     margin-right: 2rem;
-}
-input[name="nombre"] {
-    width: 100%;
 }
