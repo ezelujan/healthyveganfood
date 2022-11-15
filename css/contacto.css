@@ -1,0 +1,53 @@
+:root {
+    --blanco: #FFFFFF;
+    --blancoHover: #EEEEEE;
+    --naranja: #F58B7B;
+    --naranjaForm: #F89C8E58;
+    --naranjaHover: #E58273;
+    --verde200: #629E96;
+    --verde500: #18A583;
+    --verdeForm: #25A4833D;
+    --verdeLetraForm: #00A383;
+    --rosado: #F37CA0;
+}
+main {
+    padding: 0 14rem;
+}
+.contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+input {
+    width: 100%;
+    border: none;
+    padding: 2rem;
+    border-radius: 5rem;
+    margin-bottom: 1rem;
+    background-color: var(--verdeForm);
+}
+textarea {
+    width: 100%;
+    border: none;
+    padding: 2rem;
+    border-radius: 3rem;
+    margin-bottom: 1rem;
+    background-color: var(--naranjaForm);
+}
+.campos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.campos input:first-child {
+    margin-right: 2rem;
+}
+input[name="nombre"] {
+    width: 100%;
+}
