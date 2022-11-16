@@ -31,16 +31,34 @@
     <main>
         <section class="contacto">
             <h1>Si tienes alguna duda o sugerencia<br/>¡envíanos un mensaje!</h1>
-            <form class="formulario">
-                <div>
-                    <!-- <img src="" alt=""> -->
-                    <input type="text" name="nombre" id="nombre" placeholder="Nombre:">
+            <form class="formulario" action="">
+                <div class="relative">
+                    <label for="nombre">
+                        <img src="../images/icons/person.png" alt="Icono persona">
+                        Nombre:
+                    </label>
+                    <input type="text" name="nombre" id="nombre">
                 </div>
                 <div class="campos">
-                    <input type="tel" name="telefono" id="telefono" placeholder="Teléfono:">
-                    <input type="email" name="correo" id="correo" placeholder="Correo:">
+                    <div class="relative">
+                        <label for="telefono">
+                            <img src="../images/icons/person.png" alt="Icono persona">
+                            Teléfono:
+                        </label>
+                        <input type="tel" name="telefono" id="telefono">
+                    </div>
+                    <div class="relative">
+                        <label for="correo">
+                            <img src="../images/icons/person.png" alt="Icono persona">
+                            Correo:
+                        </label>
+                        <input type="email" name="correo" id="correo">
+                    </div>
                 </div>
                 <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="Comentario:"></textarea>
+                <div class="contenedor_boton">
+                    <input type="submit" class="boton" value="Enviar" disabled>
+                </div>
             </form>
         </section>
     </main>
