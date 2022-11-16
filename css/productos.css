@@ -57,6 +57,9 @@ main > p {
     bottom: 30%;
     position: absolute;
 }
+.producto .encabezado > .corazon:hover {
+    cursor: pointer;
+}
 .producto .descripcion {
     position: relative;
     margin-top: calc(-30% + 1rem);
@@ -83,4 +86,7 @@ main > p {
     right: -15%;
     bottom: -40%;
     position: absolute;
+}
+.producto .descripcion .carrito:hover {
+    cursor: pointer;
 }
