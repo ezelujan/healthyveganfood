@@ -49,19 +49,19 @@
 .historia > .contenedor_imagen > img {
     width: 400rem;
 }
-.historia > .contenedor_imagen > div {
+.historia > .contenedor_imagen > a {
     width: 32rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
-.historia > .contenedor_imagen > div > img {
+.historia > .contenedor_imagen > a > img {
     width: 91px;
     height: 59px;
     margin-right: 1rem;
 }
-.historia > .contenedor_imagen > div > p {
+.historia > .contenedor_imagen > a > p {
     font-size: 1.5rem;
     color: var(--verde200);
     font-weight: 400;
