@@ -59,6 +59,9 @@ main > p {
 }
 .producto .encabezado > .corazon:hover {
     cursor: pointer;
+    background-image: url('../images/icons/corazon_con_relleno.png');
+    background-size: cover;
+    background-size: 4rem;
 }
 .producto .descripcion {
     position: relative;
